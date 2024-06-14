@@ -1,4 +1,4 @@
-package com.example.kartar_re_make.ui.theme
+package com.example.kartar.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
