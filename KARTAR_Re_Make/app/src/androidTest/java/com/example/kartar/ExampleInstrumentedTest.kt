@@ -1,4 +1,4 @@
-package com.example.kartar_re_make
+package com.example.kartar
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

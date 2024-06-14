@@ -1,4 +1,4 @@
-package com.example.kartar_re_make
+package com.example.kartar
 
 import org.junit.Test
 

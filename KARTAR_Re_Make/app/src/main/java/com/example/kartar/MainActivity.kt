@@ -1,4 +1,4 @@
-package com.example.kartar_re_make
+package com.example.kartar
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,17 +10,17 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.kartar_re_make.ui.theme.KARTAR_Re_MakeTheme
+import com.example.kartar.ui.theme.KARTARTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            KARTAR_Re_MakeTheme {
+            KARTARTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    color = MaterialTheme.colorScheme.background,
                 ) {
                     Greeting("Android")
                 }
@@ -40,7 +40,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    KARTAR_Re_MakeTheme {
+    KARTARTheme {
         Greeting("Android")
     }
 }
