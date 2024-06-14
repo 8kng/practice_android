@@ -1,0 +1,2 @@
+# practice_android
+個人的なandroid開発の練習フォルダ
